@@ -45,8 +45,7 @@ public class DataBaseConverter {
 	public void initSQLConnection(String username, String password){
 		String url = "jdbc:mysql://localhost:3306/";	// Default MySQL host and port
 		String dbName = "employees";					// The employee database provided by MySQL
-		//String driver = "com/mysql.jdbc.Driver";
-		String driver = "jdbc:mysql://127.0.0.1:3306/dbtest?user=root&password=mysql";
+		String driver = "com/mysql.jdbc.Driver";
 		try {
 			//Class.forName(driver).newInstance();
 			// Set the connection to the default host, using the given username
